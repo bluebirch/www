@@ -1,16 +1,14 @@
-include Makefile.global
+source=$(wildcard *.md)
+html=$(patsubst %.md, %.html, $(source))
+css=css/buttondown.css
 
-src=$(wildcard *.md)
-dst=$(patsubst %.md,public_html/%.html,$(src))
-css=buttondown.css
+all: $(html)
 
+%.html: %.md $(css)
+	pandoc --standalone --smart --css=$(css) \
+		--from markdown --to html \
+		--include-in-header=header.html \
+		-o $@ $<
 
-public_html: $(dst)
-	@echo done
-
-public_html/%.html: %.md
-	pandoc --smart --standalone --self-contained --css=$(css)\
-        -o $@ $<
-
-publish: default
-	rsync -av public_html skalman@shaka.acc.umu.se:
+clean:
+	rm -f $(html)

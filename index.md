@@ -1,8 +1,7 @@
-# Home of the Brave
+# Skalmans hemsida på ACC
 
-This is supposed to be my web page someday.
+Det här här min hemsida på ACC. För närvarande finns här endast min släktforskning:
 
-  * [Installation notes for Ubuntu 14.04 LTS](ubuntu-14.04.html)
+* [WebTrees](webtrees/)
 
-***
-
+I övrigt, se min [hemsida på GitHub](https://bluebirch.github.io).
