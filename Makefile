@@ -1,6 +1,6 @@
 source=$(wildcard *.md)
 html=$(patsubst %.md, %.html, $(source))
-css=https://raw.githubusercontent.com/bluebirch/bluebirch.github.io/master/templates/pandoc-cv.css
+css=https://bluebirch.github.io/templates/pandoc-cv.css
 
 all: $(html)
 
