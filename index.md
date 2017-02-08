@@ -1,7 +1,6 @@
-# Skalmans hemsida på ACC
+# Stefan Björks hemsida på ACC
 
-Det här här min hemsida på ACC. För närvarande finns här endast min släktforskning:
+* Min blogg [fenomenologen.se](https://fenomenologen.se).
+* Min [hemsida på GitHub](https://bluebirch.github.io).
+* Min [släktforskning](webtrees/).
 
-* [WebTrees](webtrees/)
-
-I övrigt, se min [hemsida på GitHub](https://bluebirch.github.io).
